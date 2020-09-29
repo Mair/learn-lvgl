@@ -50,7 +50,7 @@ void keyboard_on_chip()
 bool keyboard_read_chip(lv_indev_drv_t * indev_drv, lv_indev_data_t * data)
 {
 	static int last_key;
-	int incoming_byte;
+	int incoming_byte = 0;
 #ifdef IS_ESP32
 	incoming_byte = getchar();
 #elif IS_ARDUINO

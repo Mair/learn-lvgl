@@ -40,7 +40,7 @@ void course_main(void)
 	//fonts();
 	//custom_fonts();
 	//custom_font_symbols();
-	image();
+	//image();
 	//draw_canvas();
 	/**********************
 	 * Animations
